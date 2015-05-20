@@ -1,4 +1,4 @@
 # FEWD 2015 - Spring
 
-* Author: 
-* Website: 
+* Author: Nenet
+* Website: http://www.nenet.bandcamp.com
