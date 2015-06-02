@@ -1,3 +1,11 @@
+div {
+
+	font-family: Georgia;
+	font-size: 16px;
+	color: #222;
+	margin: 0 auto;
+	width: 950px;
+}
 
 h1,
 h2,
@@ -12,8 +20,7 @@ h6 {
 }
 
 h1 {
-	
-	font-size: 60px;
+    font-size: 60px;
 	text-align: center;
 }
 
@@ -31,6 +38,45 @@ h4 {
 	text-transform: uppercase;
 }
 
+h4 {
+ margin: 0 0 0 200px;
+}
+
+ol {
+	margin: 0 0 0 160px;
+}
+
+ol ol {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+ol li a {
+	font-style: Georgia;
+	font-size: 20px;
+	color: #222;
+}
+
+ol ol {
+	 list-style: none;
+     padding: 0;
+}
+
+ol ol li a {
+ font-style: Georgia;
+ font-size: 16px;
+ color: #999;
+}
+
+article {
+	padding: 50px 0;
+}
+
+header {
+	text-align: center;
+}
+
 .title_footer {
     font-family: Georgia;
 	font-size: 20px;
@@ -38,9 +84,6 @@ h4 {
 	text-align: center;
 }
 
-.navigation {
-
-}
 
 .navigation li {
     font-family: Georgia;
@@ -55,22 +98,41 @@ h4 {
 }
 
 .colonial {
-	background-color: #f6f6f6;
-	border-left: 10px #e3e3e3;
+	background: #f6f6f6;
+	border-left: 10px solid #e3e3e3;
 	font-family: Georgia;
 	font-style: italic;
 	font-size: 20px;
-	color: #222;
+	line-height: 1.8;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 40px;
 }
 
-header {
-	text-align: center;
-
-}
-
-figcaption {
-	font-family: 'Open Sans';
+.main {
+	font-family: Open Sans;
 	font-size: 14px;
 	color: #666;
+	border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.caption {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	display: block;
+	color: #666;
+	margin-top: 10px; 
+}
+
+.dwellings {
+	float: right;
+	width: 375px;
+	font-style: 'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666;
+	border: #ccc;
 }
 
