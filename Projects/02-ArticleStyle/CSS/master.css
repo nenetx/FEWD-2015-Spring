@@ -1,0 +1,76 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 800;
+	margin: 25px 0;
+}
+
+h1 {
+	
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+    font-size: 14px;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.title_footer {
+    font-family: Georgia;
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+}
+
+.navigation {
+
+}
+
+.navigation li {
+    font-family: Georgia;
+	font-size: 20px;
+	color: #222;
+}
+
+.p-1 {
+	font-family: Georgia;
+	font-size: 16px;
+	color: #222;
+}
+
+.colonial {
+	background-color: #f6f6f6;
+	border-left: 10px #e3e3e3;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
+	color: #222;
+}
+
+header {
+	text-align: center;
+
+}
+
+figcaption {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #666;
+}
+
