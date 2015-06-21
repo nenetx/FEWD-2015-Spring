@@ -1,19 +1,19 @@
+
 body {
 	font-family: 'Lato', Helvetica, sans-serif;
-	margin: 0px;
-
+	/* margin: 0px; */
+	margin: 0;
+	padding: 0;
 }
-
 
 
 header {
 	background-image: url(../images/header.jpg);
 	background-color: #222;
 	overflow: hidden;
-	background-size: cover;
+	/* background-size: cover; */
 	background-repeat: no-repeat;
 	text-align: center;
-
 }
 
 .logo_large {
@@ -27,8 +27,10 @@ header {
 	color: #ccc;
 	margin-bottom: 50px;
 	line-height: 150%;
+	text-align: center;
 }
 
+/* Headlines */
 
 h1,
 h2,
@@ -60,6 +62,8 @@ h3 {
 	font-size: 26px;
 	color: #222;
 }
+
+/* List */
 
 ul {
     list-style: none;
@@ -106,13 +110,53 @@ ul {
 	margin: 0 auto;
 }
 
+/* Location Section */
+
 .location {
-	width: 50%;
-	margin: 0 auto;
 	font-size: 16px;
 	color: #666;
 	line-height: 150%;
- 
+     
+}
+
+.hours {
+	padding: 20px 0;
+}
+
+@media all and (max-width: 740px) {
+ .location {
+ 	text-align: center;
+ }
+
+ .shop img {
+ 	display: block;
+ 	width: 300px;
+ 	margin: 15px auto 0 auto;
+ }
+
+ .content {
+    width: 100%;
+ }	
+
+}
+
+@media all and (min-width: 740px) and (max-width: 980px) {
+	 .location {
+ 	text-align: center;
+ }
+
+ .shop img {
+ 	display: block;
+ 	width: 300px;
+ 	margin: 15px auto 0 auto;
+ }
+
+ .content {
+    width: 100%;
+ }	
+
+}
+
 }
 
 button {
@@ -132,23 +176,43 @@ button {
 }
 
 
+/* Footer */
 
 footer {
-	background-color: #222
 	font-family: "Lato", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
-	width: 100%;
+	color: #fff;
+
 }
 
+.footer {
+	background-color: #222;
+	text-align: center;
+
+}
+
+nav .item {
+	text-decoration: none;
+	color: #fff;
+}
+
+.small {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*
 .container-small {
 	background-color: #222;
 	clear: both;
 	height: 120px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	
-}
 
+
+/*
 .nav {
 	font-family: "Lato", sans-serif;
 	font-size: 12px;
@@ -177,6 +241,4 @@ nav .item {
 	margin-left: auto;
 	margin-right: auto;
 	
-	
-
 }
