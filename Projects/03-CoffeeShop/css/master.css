@@ -30,7 +30,7 @@ header {
 	text-align: center;
 }
 
-/* Headlines */
+/* H */
 
 h1,
 h2,
@@ -116,12 +116,32 @@ ul {
 	font-size: 16px;
 	color: #666;
 	line-height: 150%;
+
      
 }
 
 .hours {
 	padding: 20px 0;
 }
+
+button {
+    font-family: "Lato", sans-serif;
+    color: #AC8420;
+    font-size: 16px;
+    border: 3px solid #AC8420;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* Media Queries */
+
 
 @media all and (max-width: 740px) {
  .location {
@@ -141,8 +161,10 @@ ul {
 }
 
 @media all and (min-width: 740px) and (max-width: 980px) {
-	 .location {
+ .location {
  	text-align: center;
+ 	padding-top: 0;
+ 	margin-top: 0;
  }
 
  .shop img {
@@ -157,22 +179,46 @@ ul {
 
 }
 
+@media all and (min-width: 980px) and (max-width: 1220px) {
+ .location {
+ 	text-align: center;
+ 
+
+ }
+
+ .shop img {
+ 	display: block;
+ 	width: 300px;
+ 	margin: 30px auto 0 auto;
+ 	
+ }
+
+ h3 {
+ 	margin-top: 5px;
+ }
+
+
+@media all and (min-width: 1200px) {
+
+	footer {
+	font-family: "Lato", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #222;
+
 }
 
-button {
-    font-family: "Lato", sans-serif;
-    color: #AC8420;
-    font-size: 16px;
-    border: 3px solid #AC8420;
-    background-color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+	.footer {
+	background-color: #222;
+	text-align: center;
 }
 
-.clearfix {
-	clear: both;
+	nav .item {
+	text-decoration: none;
+	color: #fff;
+}
+
 }
 
 
@@ -201,6 +247,7 @@ nav .item {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 
 
 /*
