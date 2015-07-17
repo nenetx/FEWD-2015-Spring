@@ -486,12 +486,26 @@ p.copyright {
 
 	.line {
 		width: 450px;
-		margin-left: 20px;
+		margin: 0 auto;
 	}
 
+	.support {
+		margin-left: -25px;
+	}
 
+	.support_privacy {
+		margin-left: 10px;
+	}
 
+	.copyright {
+		margin-left: 6px;
+	}
 
+	.nav_bar {
+		margin-top: 10px;
+		margin-right: 0;
+		padding-left: 84px;
+	}
 
 }
 
